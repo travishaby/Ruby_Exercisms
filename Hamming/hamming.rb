@@ -7,7 +7,7 @@ class Hamming
 
 		strand_1 = strand_1.split("")
 		strand_2 = strand_2.split("")
-		
+
 		character = 0
 		results = []
 
@@ -15,19 +15,16 @@ class Hamming
 			result = letter != strand_2[character]
 			if result != false
 				results << letter
-			end 
+			end
 			character += 1
-			
+
 
 		end
-		results.count	 
-	end   
-end 
+		results.count
+	end
+end
 
 Hamming.compute('A', 'A')
 
 
-
-
-
-
+#THIS CODE IS TRASH
